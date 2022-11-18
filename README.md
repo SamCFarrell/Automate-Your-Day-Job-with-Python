@@ -6,7 +6,7 @@ You've made it! It's time to put away the Excel sheet and join the big leagues. 
 
 ## Before You Begin
 
-1. Create a new GitHub repo called `python-homework`. Then, clone it to your computer.
+1. Create a new GitHub repo called `Python-Challenge`. Then, clone it to your computer.
 
 2. In your local git repository, create a directory for both of the Python activities. Use folder names that correspond to the activities: **PyBank** and **PyRamen**.
 
@@ -16,7 +16,7 @@ You've made it! It's time to put away the Excel sheet and join the big leagues. 
 
 ## PyBank (Required)
 
-In this activity, you are tasked with creating a Python script for analyzing the financial records of your company. You will be provided with a financial dataset in this file: [budget_data.csv](PyBank/Resources/budget_data.csv). This dataset is composed of two columns, Date and Profit/Losses. (Thankfully, your company has rather lax standards for accounting, so the records are simple.)
+In this activity, you are tasked with creating a Python script for analyzing the financial records of your company. You will be provided with a financial dataset in this file: [budget_data.csv](Resources/budget_data.csv). This dataset is composed of two columns, Date and Profit/Losses. (Thankfully, your company has rather lax standards for accounting, so the records are simple.)
 
 Your task is to create a Python script that analyzes the records to calculate each of the following:
 
@@ -72,7 +72,7 @@ In this homework assignment, you will need to:
 
 Complete the following:
 
-* Read in `menu_data.csv` and set its contents to a separate list object. (This way, you can cross-reference your menu data with your sales data as you read in your sales data in the coming steps.)
+* Read in [menu_data.csv](Resources/menu_data.csv). and set its contents to a separate list object. (This way, you can cross-reference your menu data with your sales data as you read in your sales data in the coming steps.)
 
   * Initialize an empty `menu` list object to hold the contents of `menu_data.csv`.
 
@@ -84,7 +84,7 @@ Complete the following:
 
   * Loop over the rest of the rows and append every row to the `menu` list object (the outcome will be a list of lists).
 
-* Set up the same process to read in `sales_data.csv`. However, instead append every row of the sales data to a new `sales` list object.
+* Set up the same process to read in [sales_data.csv](Resources/sales_data.csv). However, instead append every row of the sales data to a new `sales` list object.
 
 ### Manipulate the Data
 
