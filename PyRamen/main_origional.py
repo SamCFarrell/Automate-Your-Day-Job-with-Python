@@ -53,14 +53,25 @@ for row in sales:
             report.update()  
     row_count += 1
 
+#print results
+for i in report:
+    print(i, report[i]) 
+
 # output text file
 output_path = 'output.txt'
 with open(output_path, "w") as csvout:
-    csvwriter = csv.writer(csvout, delimiter=",")
-    for name in report:
-        csvwriter.writerow(
-            [
-                name, 
-                report[sales_item],
-            ]
-        )
+    for i in report:
+        csvout.write(f"{i} {report[i]}\n")
+
+# Oritional text file output code
+# --output had unwanted punctuation--
+
+# output_path = 'output.txt'
+# with open(output_path, "w") as csvout:
+#     csvwriter = csv.writer(csvout)
+#     for i in report:
+#         csvwriter.writerow(
+#             [
+#                 i, report[i]
+#             ]
+#         )
