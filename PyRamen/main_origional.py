@@ -54,6 +54,12 @@ for row in sales:
     row_count += 1
 
 # Oritional text file output code
+# --output had unwanted formatting--
+output_path = 'output.txt'
+with open(output_path, 'w') as csvout:
+    csvout.write(f"{report}")
+
+# Second text file output code
 # --output had unwanted punctuation--
 output_path = 'output.txt'
 with open(output_path, "w") as csvout:
